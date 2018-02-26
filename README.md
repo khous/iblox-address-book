@@ -22,7 +22,7 @@ This command also copies the sample-book.csv to the build directory
 
 Install global dependencies for test and compilation<br>
 
-`npm i ts-node mocha typescript`
+`npm i -g ts-node mocha typescript`
 
 # Build
 `npm run build`
