@@ -1,8 +1,8 @@
-#Simple Address Search
+# Simple Address Search
 This utility provides a simple search functionality into an address book. It is designed for later integration with a 
 database.
 
-#Usage
+# Usage
 Invoke the script with 
 
 `node index.js John Jones`
@@ -11,10 +11,10 @@ Use the -h option to get a list of more advanced capabilities
 
 _Note:_
 The Resource file should be in the same directory as index.js
-#Requirements
+# Requirements
 Nodejs must be installed in order to run this program
 
-#Setup
+# Setup
 Navigate to root of project 
 
 `npm install`
@@ -24,19 +24,19 @@ Install global dependencies for test and compilation<br>
 
 `npm i ts-node mocha typescript`
 
-#Build
+# Build
 `npm run build`
 The typescript compiler outputs to the build directory.
 
-#Test
+# Test
 `npm test`
 Tests are written with mocha/chai in typescript.
 
-#Linting
+# Linting
 `npm run lint`
 The tslint configuration can be found at the root of the project--tslint.json
 
-#Project Structure
+# Project Structure
 The source code lives in the ./src directory. The project is implemented in typescript and compiled to ES5 
 for the nodejs runtime. Compiled files are output to the build directory
 
@@ -54,5 +54,5 @@ There are two components in the data layer:
 "input-line" represents a single line of input. Internally, it handles parsing this line of input into 
 an address line.
 
-#User Stories
+# User Stories
 Are documented in the user-stories.md file located at the root of this project
