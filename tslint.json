@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+
+  "rules": {
+    "curly": true,
+    "no-var-requires": false,
+    "trailing-comma": [
+      false
+    ],
+    "space-before-function-paren": false,
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-trailing-whitespace": [false]
+  }
+}
