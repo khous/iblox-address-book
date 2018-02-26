@@ -18,6 +18,7 @@ Nodejs must be installed in order to run this program
 Navigate to root of project 
 
 `npm install`
+This command also copies the sample-book.csv to the build directory
 
 Install global dependencies for test and compilation<br>
 
@@ -25,12 +26,15 @@ Install global dependencies for test and compilation<br>
 
 #Build
 `npm run build`
+The typescript compiler outputs to the build directory.
 
 #Test
 `npm test`
+Tests are written with mocha/chai in typescript.
 
 #Linting
 `npm run lint`
+The tslint configuration can be found at the root of the project--tslint.json
 
 #Project Structure
 The source code lives in the ./src directory. The project is implemented in typescript and compiled to ES5 
