@@ -1,4 +1,4 @@
-# Simple Address Search
+#Simple Address Search
 This utility provides a simple search functionality into an address book. It is designed for later integration with a 
 database.
 
@@ -11,6 +11,8 @@ Use the -h option to get a list of more advanced capabilities
 
 _Note:_
 The Resource file should be in the same directory as index.js
+#Requirements
+Nodejs must be installed in order to run this program
 
 #Setup
 Navigate to root of project 
@@ -47,3 +49,6 @@ There are two components in the data layer:
 "db" handles the searches and builds the backing in memory data from the input csv.
 "input-line" represents a single line of input. Internally, it handles parsing this line of input into 
 an address line.
+
+#User Stories
+Are documented in the user-stories.md file located at the root of this project
